@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Robot', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .header-container {
@@ -71,6 +73,7 @@ a {
     color: white;
     padding: .7em 3.2em;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
 .img-container {
@@ -104,5 +107,95 @@ a {
 .divContainer {
     display: flex;
     flex-direction: column;
-    max-width: 200px;   
+    max-width: 200px;
+}
+
+.greyContainer {
+    display: flex;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    flex-direction: column;
+    
+}
+
+.italic {
+    font-style: italic;
+    max-width: 1000px;
+}
+
+.quoteContainer {
+    display: flex;
+    width: 1000px;
+    justify-content: flex-end;
+}
+
+.quote {
+    font-weight: bold;
+}
+
+.emptyContainer {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionDiv {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 0 3em;
+    
+}
+
+.actionHeader {
+    color: #F9FAF8;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.actionParagraph {
+    color: #F9FAF8;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.sign-up {
+    position: relative;
+    bottom: 40px;
+    border: 2px solid #F9FAF8;
+    background-color: none;
+    font-weight: 700;
+}
+
+.sign-up-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.copyrightContainer {
+    display: flex;
+    width: 100%;
+    min-height: 120px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
